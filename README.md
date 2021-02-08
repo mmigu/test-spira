@@ -65,8 +65,8 @@ Se debe crear una base de datos llamada testSpira, despues de clonar ejecutar lo
 
 Las credenciales del usuario admin por defecto son
 
-email:admin@email.com
-password:123456789
+- email:admin@email.com
+- password:123456789
 
 ----------------------------------------
 
