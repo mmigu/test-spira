@@ -48,7 +48,7 @@ class UserController extends Controller
             null
         );
     }
-
+    //actualizar usuarios
     public function updateUser(Request $request)
     {
         $validator = Validator::make($request->all(), [
@@ -85,7 +85,7 @@ class UserController extends Controller
             null
         );
     }
-
+    //consultar estudiantes
     public function getStudents()
     {
         $users = User::where('role_id', '2')->get();
@@ -211,7 +211,7 @@ class UserController extends Controller
         );
     }
 
-
+    //consulta cursos por usuarios 
     public function getMyCourses()
     {
         $user = Auth::user();

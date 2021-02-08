@@ -17,6 +17,7 @@ use Illuminate\Http\Request;
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
+//Passport para la autenticaciion por token
 
 
 Route::post('createStudent','UserController@createStudent')->middleware('auth:api');
