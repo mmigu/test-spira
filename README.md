@@ -61,4 +61,13 @@ Se debe crear una base de datos llamada testSpira, despues de clonar ejecutar lo
 
 - php artisan passport:install
 
+------------------------------------------------------------
 
+Las credenciales del usuario admin por defecto son
+
+email:admin@email.com
+password:123456789
+
+----------------------------------------
+
+Para visualizar las rutas creadas ejecutar comando php artisan route:list
