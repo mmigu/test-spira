@@ -1,6 +1,6 @@
 # test-spira
 
-Contenido .env
+Crear un archivo .env en la carpeta raiz con el siguiente contenido
 
 -------------------
 
